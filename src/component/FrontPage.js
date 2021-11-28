@@ -65,7 +65,7 @@ export function Image(){
             ImageData()
             },[])
     if(loading){
-        return  <ReactLoading type="string" color="red" height={'20%'} width={'20%'} />
+        return  <div style={{textAlign:"center",fontSize:"40px"}}>Loading.......</div>
     }
 
    //...................fetching data by clicking on search................
