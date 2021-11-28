@@ -120,9 +120,7 @@ body{
 }
 
 @media (max-width: 950px) {
-   .container{
-       background-color: yellow;
-   }
+   
    .activeNav{
     margin-top: -8%;
     
@@ -145,9 +143,7 @@ body{
 
   @media (max-width: 720px) {
 
-    .container{
-        background-color: red;
-    }
+  
     .activeNav{
             margin-top: -10%;
         
@@ -166,12 +162,18 @@ body{
 
   @media (max-width: 620px) {
 
-    .container{
-        background-color: green;
-    }
+
     .activeNav{
-            margin-top: -60px
+            margin-top: -60px;
+            height: 80px;
         
+       }
+     .input{
+        width: 230px;
+        height: 30px;
+    }
+    .searchDiv{
+        height: 50px;
        }
 
        .profilDiv img{
